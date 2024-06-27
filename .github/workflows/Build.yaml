@@ -1,4 +1,4 @@
-name: Build
+name: x8b
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   pull_request:
 
 concurrency:
-  group: build-${{ github.ref }}
+  group: 
   cancel-in-progress: true
 
 jobs:
